@@ -41,8 +41,8 @@
         }        
 
         main a:hover {
-            color: brown;
-            font-size: 1.3em;
+            color: rgb(0, 14, 95);
+            transform: scale(1.05);
         }
 
         aside{
@@ -76,7 +76,7 @@
         }
 
         .footer {
-            background-color: rgba(255, 255, 255, 0.2);
+            background-color: rgba(255, 255, 255, 0);
             text-align: center;
             padding: 1px;
             color: #000000;
