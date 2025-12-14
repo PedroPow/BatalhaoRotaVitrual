@@ -17,6 +17,7 @@
             text-align: center;
             background-color: rgb(235, 192, 0);
             padding: 10px;
+            font-size: 1.3em;
         }
 
         nav a {
@@ -36,8 +37,7 @@
             min-width: 300px;
             max-width: 1000px;
             min-height: 400px;
-            margin: auto;
-            padding: 20px;     
+            margin: auto;     
     
         }
 
@@ -101,7 +101,7 @@
             padding: 1px;
             color: #000000;
             margin-top: 30px;
-
+            font-size: 1.5em;
         }
 
         footer a {
@@ -112,7 +112,7 @@
 
         footer a:hover {
             color: rgb(0, 14, 95);
-            font-size: 1.3em;
+            font-size: 2em;
         }
 
         img {

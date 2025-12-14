@@ -68,6 +68,7 @@
             margin: 5px;
             padding: 1px;
             font-size: small;
+            font-weight: bold;
         }
 
         nav a:hover{
