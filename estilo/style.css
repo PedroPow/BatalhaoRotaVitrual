@@ -56,6 +56,7 @@
         aside a {
             text-decoration: none;
             color: #000000;
+            font-size: 1.3em;
         }
 
         aside a:hover {
@@ -76,7 +77,8 @@
             margin: 20px;
             text-decoration: none;
             border-radius: 30px;
-            transform: scale(1.05)
+            transform: scale(1.05);
+            
         }
 
         .post1 {
@@ -86,6 +88,7 @@
             text-align: center;
             margin: 30px;
             border-radius: 10px;
+            font-size: 1.4em;
         }        
 
         
@@ -97,6 +100,7 @@
             text-align: center;
             padding: 1px;
             color: #000000;
+            margin-top: 230px;
 
         }
 
