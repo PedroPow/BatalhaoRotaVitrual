@@ -1,0 +1,98 @@
+        body {
+            font-family: 'Georgia', serif;
+            background-image: linear-gradient(to top, rgb(255, 218, 55), rgb(235, 192, 0) );
+            margin: 0;
+            padding: 0;
+            color: #000000;
+        }
+
+
+        header {
+            background-image: linear-gradient(to top, rgb(255, 218, 55), rgb(235, 192, 0) );
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            background-color: rgb(235, 192, 0);
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            margin: 0 15px;
+            font-weight: bold;
+            padding: 1px;
+        }
+
+        nav a:hover{
+            color: rgb(0, 14, 95);
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+            
+        }
+
+
+        main a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        main a:hover {
+            color: rgb(0, 14, 95);
+        }
+
+
+        div :hover {
+            transform: none
+        }
+
+
+        .post {
+            background-color: #ffffff;
+            padding: 10px;
+            box-shadow: 0 4px 8px #00000081;
+            text-align: center;
+            margin: 20px;
+            text-decoration: none;
+            border-radius: 30px;
+            transform: scale(1.05)
+        }
+
+        
+        .post h2 {
+            color: black;
+        }
+        
+        footer {
+            background-image: linear-gradient(to top, rgb(235, 192, 0), rgb(255, 218, 55)  );
+            text-align: center;
+            padding: 1px;
+            color: #000000;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: #000000;
+            font-weight: bolder;
+            transition: 0.5s;
+        }
+
+        footer a:hover {
+            color: rgb(0, 14, 95);
+            font-size: 1.3em;
+        }
+
+        img {
+        max-width: 150px;
+        border-radius: 10px;
+        margin-top: 15px;
+        
+        }
+        

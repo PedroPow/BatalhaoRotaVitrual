@@ -1,0 +1,86 @@
+        body{
+            background-image: linear-gradient(to top, rgb(255, 218, 55), rgb(235, 192, 0) );
+
+        }
+        img {
+            width: 580px;
+            display: block; /* Essencial para que a margem funcione */
+            margin-left: auto;
+            margin-right: auto;
+            /* Ou o atalho: margin: 0 auto; */
+        }            
+        .post {
+            background-color: white;
+            padding: 2px;
+            box-shadow: 0 4px 8px #00000081;
+            text-align: center;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 200px;
+            transform: none
+        }
+
+        
+        .post h2 {
+            color: rgb(0, 0, 0);
+        }
+
+        main {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 0 20px;
+            
+        }
+
+        main a { 
+            text-decoration: none;
+            color: #000000;            
+        }        
+
+        main a:hover {
+            color: brown;
+            font-size: 1.3em;
+        }
+
+        nav {
+            text-align: center;
+            background-image: linear-gradient(to top, rgb(255, 218, 55), rgb(235, 192, 0) );
+            padding: 15px;
+            max-width: 550px;
+            margin: 30px auto; 
+            border-radius: 30px;          
+        }
+
+        nav a {
+            font-size: 1.2em;
+            text-decoration: none;
+            color: #000000;
+            margin: 0 15px;
+            font-weight: bold;
+            padding: 1px;            
+        }
+
+        nav a:hover{
+            color: rgb(9, 20, 90);
+            font-size: 1.3em;
+        }
+
+        footer {
+            background-image: linear-gradient(to top, rgb(235, 192, 0), rgb(255, 218, 55)  );
+            text-align: center;
+            padding: 1px;
+            color: #000000;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: #000000;
+            font-weight: bolder;
+            transition: 0.5s;
+        }
+
+        footer a:hover {
+            color: rgb(0, 14, 95);
+            font-size: 1.3em;
+        }        
+
