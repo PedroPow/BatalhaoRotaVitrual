@@ -9,10 +9,6 @@
             margin-right: auto;
             /* Ou o atalho: margin: 0 auto; */
         }    
-        
-        .foto{
-            max-height: 330px;
-        }
 
         .post {
             background-color: white;
@@ -70,7 +66,7 @@
             text-decoration: none;
             color: #000000;
             margin: 5px;
-            padding: 1px;
+            padding: 0.5px;
         }
 
         nav a:hover{
