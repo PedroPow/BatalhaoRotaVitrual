@@ -32,19 +32,33 @@
         }
 
         main {
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 0 20px;
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) );
+            min-width: 300px;
+            max-width: 1000px;
+            min-height: 400px;
+            margin: auto;
+            padding: 20px;     
+    
+        }
+
+        aside {
+            min-width: 300px;
+            max-width: 1000px;
+            min-height: 400px;
+            margin: auto;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            padding: 20px;
             
         }
 
 
-        main a {
+        aside a {
             text-decoration: none;
             color: #000000;
         }
 
-        main a:hover {
+        aside a:hover {
             color: rgb(0, 14, 95);
         }
 
@@ -65,17 +79,25 @@
             transform: scale(1.05)
         }
 
+        .post1 {
+            background-image: linear-gradient(to top, rgb(255, 218, 55), rgb(235, 192, 0) );
+            padding: 50px;
+            box-shadow: 0 4px 8px #00000081;
+            text-align: center;
+            margin: 30px;
+            border-radius: 10px;
+        }        
+
         
         .post h2 {
             color: black;
         }
         
         footer {
-            background-image: linear-gradient(to top, rgb(235, 192, 0), rgb(255, 218, 55)  );
             text-align: center;
             padding: 1px;
             color: #000000;
-            margin-top: 30px;
+
         }
 
         footer a {
@@ -90,9 +112,10 @@
         }
 
         img {
-        max-width: 150px;
+        max-width: 430px;
+        max-height: 330px;
         border-radius: 10px;
         margin-top: 15px;
-        
         }
+        
         

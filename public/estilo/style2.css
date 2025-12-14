@@ -3,12 +3,17 @@
 
         }
         img {
-            width: 580px;
+            width: 350px;
             display: block; /* Essencial para que a margem funcione */
             margin-left: auto;
             margin-right: auto;
             /* Ou o atalho: margin: 0 auto; */
-        }            
+        }    
+        
+        .foto{
+            max-height: 330px;
+        }
+
         .post {
             background-color: white;
             padding: 2px;
@@ -26,10 +31,12 @@
         }
 
         main {
-            max-width: 600px;
-            margin: 30px auto;
-            padding: 0 20px;
-            
+            background-color: rgba(255, 255, 255, 0);
+            min-width: 200px;
+            max-width: 500px;
+            min-height: 400px;
+            margin: auto;
+            padding: 30px;     
         }
 
         main a { 
@@ -42,45 +49,50 @@
             font-size: 1.3em;
         }
 
+        aside{
+            background-image: linear-gradient(to top, rgb(255, 218, 55), rgb(235, 192, 0) );
+            max-width: 400px;
+            margin: auto;
+            margin-top: 30px;
+            padding: 20px;    
+            border-radius: 10px
+        }
+
         nav {
             text-align: center;
-            background-image: linear-gradient(to top, rgb(255, 218, 55), rgb(235, 192, 0) );
-            padding: 15px;
-            max-width: 550px;
-            margin: 30px auto; 
-            border-radius: 30px;          
+            background-color: rgba(235, 192, 0, 0.121);
+            padding: 10px;
+            margin-top: 10px;
+            margin-top: 60px;
         }
 
         nav a {
-            font-size: 1.2em;
             text-decoration: none;
             color: #000000;
-            margin: 0 15px;
-            font-weight: bold;
-            padding: 1px;            
+            margin: 5px;
+            padding: 1px;
         }
 
         nav a:hover{
-            color: rgb(9, 20, 90);
-            font-size: 1.3em;
+            color: rgb(0, 14, 95);
         }
 
         footer {
-            background-image: linear-gradient(to top, rgb(235, 192, 0), rgb(255, 218, 55)  );
+            background-color: rgba(255, 255, 255, 0.2);
             text-align: center;
             padding: 1px;
             color: #000000;
-            margin-top: 30px;
+            margin-top: 10px;
         }
 
         footer a {
             color: #000000;
-            font-weight: bolder;
             transition: 0.5s;
         }
 
         footer a:hover {
             color: rgb(0, 14, 95);
             font-size: 1.3em;
-        }        
+        }
+
 
