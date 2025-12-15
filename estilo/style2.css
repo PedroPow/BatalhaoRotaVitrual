@@ -37,7 +37,8 @@
 
         main a { 
             text-decoration: none;
-            color: #000000;            
+            color: #000000;   
+            text-align: center;         
         }        
 
         main a:hover {
@@ -45,27 +46,41 @@
             transform: scale(1.05);
         }
 
+        
+        aside h1, h2, h3 {
+            text-align: center;
+            font-style: unset;
+        }
+
+        aside h5 {
+            font-weight: normal;
+            font-style: italic;
+            text-indent: 1px;
+            font-size: 1.2em;
+        }
+
         aside{
-            background-image: linear-gradient(to top, rgb(255, 218, 55), rgb(235, 192, 0) );
+            background-color: white;
             max-width: 400px;
             margin: auto;
-            margin-top: 30px;
-            padding: 20px;    
-            border-radius: 10px
+            padding: 10px 60px;    
+            border-radius: 10px;
+            box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.571);
         }
 
         nav {
             text-align: center;
             background-color: rgba(235, 192, 0, 0.121);
-            margin-top: 40px;
+            padding: 10px;
+            margin-top: 35px;
         }
 
         nav a {
             text-decoration: none;
             color: #000000;
-            padding: 2px;
-            font-size: xx-small;
-            font-weight: bold;
+            margin: 2px;
+            font-size: small;
+            font-weight: bolder;
         }
 
         nav a:hover{
@@ -89,4 +104,22 @@
             font-size: 1.3em;
         }
 
+
+        .regras {
+            background-color: rgba(255, 255, 255, 0);
+            text-align: center;
+            padding: 1px;
+            color: #000000;
+            margin-top: 110px;
+        }
+
+        .regras a {
+            color: #000000;
+            transition: 0.5s;
+        }
+
+        .regras a:hover {
+            color: rgb(0, 14, 95);
+            font-size: 1.3em;
+        }        
 
