@@ -32,7 +32,9 @@
             max-width: 500px;
             min-height: 0px;
             margin: auto;
-            padding: 15px;     
+            padding: 15px; 
+            margin-top: 30px;  
+            margin-bottom: -35px;  
         }
 
         main a { 
