@@ -4,6 +4,7 @@
         }
         img {
             width: 350px;
+            height: 650px;
             display: block; /* Essencial para que a margem funcione */
             margin-left: auto;
             margin-right: auto;
